@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hotel Booking App</title>
+</head>
+<body>
+
+  <h1>Hotel Booking Application</h1>
+
+  <form>
+    <label>Customer Name:</label><br>
+    <input type="text" placeholder="Enter Name"><br><br>
+
+    <label>Room Type:</label><br>
+    <select>
+      <option>Single Room</option>
+      <option>Double Room</option>
+      <option>Suite Room</option>
+    </select><br><br>
+
+    <label>Check-In Date:</label><br>
+    <input type="date"><br><br>
+
+    <label>Check-Out Date:</label><br>
+    <input type="date"><br><br>
+
+    <button type="submit">Book Room</button>
+  </form>
+
+</body>
+</html>
